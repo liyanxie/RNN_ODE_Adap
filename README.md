@@ -47,6 +47,25 @@ This codebase contains functions needed for implementing RNN-ODE-Adap, and provi
 
 ## How to run the code?
 
+The main entry point of this repository is the Jupyter notebook `spiral_example.ipynb`, which provides a complete demonstration of how to train and evaluate the proposed RNN-ODE-Adap with adaptive time steps on a toy spiral simulated dataset. All functions are organized into separate Python scripts.
+
+RNN_ODE_Adap_functions.py: Core functions for the adaptive RNN-ODE model, including adaptive step size handling.
+
+RNN_ODE_functions.py: Standard RNN-ODE methods using fixed time grids.
+
+RNN_functions.py: Basic RNN forward and training logic.
+
+LSTM_functions.py: Implementation of baseline LSTM model.
+
+NN.py: Generic neural network building blocks used across models.
+
+adaptive_select.py: Adaptive time-step selector module.
+
+interpolate_windows.py: Utility functions for time interpolation and windowing of irregular data.
+
+All core models and functions are invoked from within spiral_example.ipynb, which serves as a self-contained example and benchmark.
+
+
 ## References
 
 If you find the code useful for your research, please consider citing

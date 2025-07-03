@@ -52,7 +52,7 @@ This codebase contains functions needed for implementing RNN-ODE-Adap, and provi
 If you find the code useful for your research, please consider citing
 
 ```bibtex
-@misc{tan2023neuraldifferentialrecurrentneural,
+@misc{TXC2023adaptive,
       title={Neural Differential Recurrent Neural Network with Adaptive Time Steps}, 
       author={Yixuan Tan and Liyan Xie and Xiuyuan Cheng},
       year={2023},
@@ -65,10 +65,10 @@ If you find the code useful for your research, please consider citing
 
 This work is built upon some previous papers which might also interest you:
 
-. Ricky TQ Chen, Yulia Rubanova, Jesse Bettencourt, and David K Duvenaud. "Neural ordinary differential equations." In Advances in Neural Information Processing Systems, 2018.
+- Ricky TQ Chen, Yulia Rubanova, Jesse Bettencourt, and David K Duvenaud. "Neural ordinary differential equations." In Advances in Neural Information Processing Systems, 2018.
 
-. Yulia Rubanova, Ricky TQ Chen, and David K Duvenaud. "Latent ordinary differential equations for irregularly-sampled time series." In Advances in Neural Information Processing
+- Yulia Rubanova, Ricky TQ Chen, and David K Duvenaud. "Latent ordinary differential equations for irregularly-sampled time series." In Advances in Neural Information Processing
 Systems, 2019.
 
-. E Weinan. "A proposal on machine learning via dynamical systems." Communications in Mathematics and Statistics, 1(5):1–11, 2017.
+- E Weinan. "A proposal on machine learning via dynamical systems." Communications in Mathematics and Statistics, 1(5):1–11, 2017.
 

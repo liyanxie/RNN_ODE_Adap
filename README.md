@@ -15,10 +15,13 @@ We propose an RNN-ODE model with adaptive time steps, called RNN-ODE-Adap, that 
 </p>
 
 <br>
+  
+
+
 
 The basic idea of adaptive time steps is captured in the figure below:
 
-<be>
+<br>
 
 <p align="center">
   <img src="assets/compare_adap_regular.png" width="800"/>
@@ -27,3 +30,5 @@ The basic idea of adaptive time steps is captured in the figure below:
 </p>
 
 <br>
+
+# What does this code do?

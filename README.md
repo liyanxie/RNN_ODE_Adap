@@ -32,3 +32,15 @@ The basic idea of adaptive time steps is captured in the figure below:
 <br>
 
 ## What does this code do?
+
+This codebase contains functions needed for implementing RNN-ODE-Adap, and provide the code for reproducing the spiral example used in the paper, as shown below.
+
+<br>
+
+<p align="center">
+  <img src="assets/spiral_reconstruction_irregular.png" width="800"/>
+  <br>
+  <em><sub>Comparison of RNN, LSTM, RNN-ODE, RNN-ODE-Adap on the reconstruction of simulated spiral data using irregular time series. </em>
+</p>
+
+<br>

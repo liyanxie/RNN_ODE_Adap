@@ -6,6 +6,14 @@ by Yixuan Tan, [Liyan Xie](https://liyanxie.github.io/), and [Xiuyuan Cheng](htt
 
 We propose an RNN-ODE model with adaptive time steps, called RNN-ODE-Adap, that uses a RNN-ODE to represent the time development of the hidden states, and we adaptively select time steps based on the steepness of changes of the data over time so as to train the model more efficiently for the ``spike-like'' time series (see examples below). 
 
+<div style="text-align: center; margin: 2em 0;">
+  <img src="assets/spikes.png" alt="Spikes Figure" width="400">
+  <div style="font-size: 0.9em; color: #555; margin-top: 0.5em;">
+    <em>Figure 1: Spike-like patterns in time series data.</em>
+  </div>
+</div>
+
+
 <p align="center">
   <img src="assets/spikes.png" width="800"/>
   <br>

@@ -31,4 +31,4 @@ The basic idea of adaptive time steps is captured in the figure below:
 
 <br>
 
-# What does this code do?
+## What does this code do?

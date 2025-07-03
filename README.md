@@ -17,7 +17,7 @@ We propose an RNN-ODE model with adaptive time steps, called RNN-ODE-Adap, that 
 <p align="center">
   <img src="assets/spikes.png" width="800"/>
   <br>
-  <em>Illustration of spike-like time series. The crosses denote the discretely sampled time steps, which can be irregular. In the left panel, the subsequences enclosed with the orange, yellow, and green brackets represent the (training or testing) windows generated from this sequence. The rightmost plot shows the binary event series data with the underlying intensity function of this non-homogenous Poisson process.</em>
+  <em><sub>Illustration of spike-like time series. The crosses denote the discretely sampled time steps, which can be irregular. In the left panel, the subsequences enclosed with the orange, yellow, and green brackets represent the (training or testing) windows generated from this sequence. The rightmost plot shows the binary event series data with the underlying intensity function of this non-homogenous Poisson process.</em>
 </p>
 
 
